@@ -31,6 +31,9 @@ DEBUG = env.bool("ANYTHING", default=False)
 
 ALLOWED_HOSTS = ["news-sjcp.onrender.com", "localhost", "127.0.0.1"]
 
+CSRF_TRUSTED_ORIGINS = ["https://news-sjcp.onrender.com","https://*.onrender.com"]
+
+
 # Application definition
 
 INSTALLED_APPS = [

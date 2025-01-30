@@ -52,4 +52,4 @@ This is a Django-based news app that fetches and displays news articles.
 
 ## Usage
 
-- Visit `http://127.0.0.1:8000/` to view the app.
+- Visit `http://news-sjcp.onrender.com/` to view the app.
